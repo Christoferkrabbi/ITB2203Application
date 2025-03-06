@@ -10,4 +10,5 @@ public class DataContext : DbContext
     public DbSet<Test>? Tests { get; set; }
     public DbSet<Movie>? MovieList { get; set; }
     public DbSet<Session>? SessionList { get; set; }
+    public DbSet<Ticket>? TicketList { get; set; }
 }
